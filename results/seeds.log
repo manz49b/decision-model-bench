@@ -1,0 +1,50 @@
+[stage] B500s1
+[skip] B500s1 already scored
+[stage] B500s2
+[resume] B500s2 already trained
+[merged] adapters/B500s2-merged
+[calibrated] adapters/B500s2-merged {'choice': 1.3712724343984009, 'noul': 1.0, 'score': 1.0}
+run_id 6557de1f: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+B500s2 (adapters/B500s2-merged)']
+[stage] A500s1
+[sched] 187 optimiser steps
+[eval after] {'flow': 0.9, 'subflow': 0.88, 'is_product_return': 1.0}
+[merged] adapters/A500s1-merged
+[calibrated] adapters/A500s1-merged {'choice': 1.250230145991456, 'noul': 0.01, 'score': 1.0}
+run_id 6c606471: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500s1 (adapters/A500s1-merged)']
+run_id a7e40b12: 150 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500s1 (adapters/A500s1-merged)']
+[stage] A500s2
+[sched] 187 optimiser steps
+[eval after] {'flow': 0.94, 'subflow': 0.87, 'is_product_return': 1.0}
+[merged] adapters/A500s2-merged
+[calibrated] adapters/A500s2-merged {'choice': 1.469684386112446, 'noul': 0.01, 'score': 1.0}
+run_id 42c788c5: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500s2 (adapters/A500s2-merged)']
+run_id 00967f1d: 150 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500s2 (adapters/A500s2-merged)']
+[stage] A500v3s1
+[sched] 187 optimiser steps
+[eval after] {'flow': 0.93, 'subflow': 0.87, 'is_product_return': 0.99}
+[merged] adapters/A500v3s1-merged
+[calibrated] adapters/A500v3s1-merged {'choice': 1.4720406378260014, 'noul': 2.129711627523478, 'score': 1.0}
+run_id 5da8b524: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500s1 (adapters/A500v3s1-merged)']
+run_id 0bc6954f: 150 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500s1 (adapters/A500v3s1-merged)']
+[stage] A500v3s2
+[sched] 187 optimiser steps
+[eval after] {'flow': 0.93, 'subflow': 0.87, 'is_product_return': 1.0}
+[merged] adapters/A500v3s2-merged
+[calibrated] adapters/A500v3s2-merged {'choice': 2.081113370090395, 'noul': 2.5032039797173256, 'score': 1.0}
+[stage] B500s1
+[skip] B500s1 already scored
+[stage] B500s2
+[skip] B500s2 already scored
+[stage] A500s1
+[skip] A500s1 already scored
+[stage] A500s2
+[skip] A500s2 already scored
+[stage] A500v3s1
+[skip] A500v3s1 already scored
+[stage] A500v3s2
+[resume] A500v3s2 already trained
+[merged] adapters/A500v3s2-merged
+[calibrated] adapters/A500v3s2-merged {'choice': 2.081113370090395, 'noul': 2.5032039797173256, 'score': 1.0}
+run_id 5434afc0: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500s2 (adapters/A500v3s2-merged)']
+run_id 64550dc2: 150 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500s2 (adapters/A500v3s2-merged)']
+[seeds done]

@@ -1,0 +1,4 @@
+[eval before] {'next_action': 0.31}
+[sched] 12 optimiser steps
+[train] step 10/12 ce 2.523 133s peak 4.72GB
+[eval after] {'next_action': 0.63}

@@ -1,0 +1,6 @@
+[eval before] {'flow': 0.81, 'subflow': 0.75, 'is_product_return': 0.9}
+[sched] 37 optimiser steps
+[train] step 10/37 ce 1.402 134s peak 4.86GB
+[train] step 20/37 ce 0.532 252s peak 4.86GB
+[train] step 30/37 ce 0.392 374s peak 4.86GB
+[eval after] {'flow': 0.82, 'subflow': 0.79, 'is_product_return': 0.95}

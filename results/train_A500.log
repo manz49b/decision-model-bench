@@ -1,0 +1,21 @@
+[eval before] {'flow': 0.8, 'subflow': 0.73, 'is_product_return': 0.92}
+[sched] 187 optimiser steps
+[train] step 10/187 ce 0.893 115s peak 4.80GB
+[train] step 20/187 ce 0.311 234s peak 4.80GB
+[train] step 30/187 ce 0.369 351s peak 4.80GB
+[train] step 40/187 ce 0.916 479s peak 4.80GB
+[train] step 50/187 ce 0.455 611s peak 4.93GB
+[train] step 60/187 ce 0.436 720s peak 4.93GB
+[train] step 70/187 ce 0.420 829s peak 4.93GB
+[train] step 80/187 ce 0.689 950s peak 5.08GB
+[train] step 90/187 ce 0.397 1063s peak 5.08GB
+[train] step 100/187 ce 0.540 1186s peak 5.08GB
+[train] step 110/187 ce 0.562 1306s peak 5.08GB
+[train] step 120/187 ce 0.454 1436s peak 5.08GB
+[train] step 130/187 ce 1.121 1557s peak 5.08GB
+[train] step 140/187 ce 0.345 1683s peak 5.08GB
+[train] step 150/187 ce 0.351 1809s peak 5.08GB
+[train] step 160/187 ce 0.345 1927s peak 5.08GB
+[train] step 170/187 ce 0.462 2045s peak 5.08GB
+[train] step 180/187 ce 0.363 2165s peak 5.08GB
+[eval after] {'flow': 0.94, 'subflow': 0.91, 'is_product_return': 0.98}

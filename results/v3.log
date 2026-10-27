@@ -1,0 +1,46 @@
+[stage] base, prompt-engineered
+[calibrated] Mapika/decider-2b {'choice': 2.030917620904737, 'noul': 2.6185459584742325, 'score': 1.0}
+run_id ceaa2f1d: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b (Mapika/decider-2b)']
+run_id d3ed9567: 150 cases × 1 repeats, 0 errored rows, model ['decider-2b (Mapika/decider-2b)']
+[calibrated] Mapika/decider-2b {'choice': 2.679746087325692, 'noul': 1.0, 'score': 1.0}
+run_id cc76c2cf: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b (Mapika/decider-2b)']
+[stage] B500 trained on prompt-engineered inputs
+[eval before] {'next_action': 0.29}
+[sched] 62 optimiser steps
+[train] step 10/62 ce 2.367 224s peak 4.41GB
+[train] step 20/62 ce 1.425 431s peak 4.55GB
+[train] step 30/62 ce 1.585 646s peak 4.55GB
+[train] step 40/62 ce 1.170 869s peak 4.55GB
+[train] step 50/62 ce 1.210 1083s peak 4.55GB
+[train] step 60/62 ce 1.109 1299s peak 4.55GB
+[eval after] {'next_action': 0.78}
+[merged] adapters/B500v3-merged
+[calibrated] adapters/B500v3-merged {'choice': 1.0884019160690066, 'noul': 1.0, 'score': 1.0}
+run_id ca683b46: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+B500 (adapters/B500v3-merged)']
+[stage] A500 trained on prompt-engineered inputs
+[eval before] {'flow': 0.82, 'subflow': 0.75, 'is_product_return': 0.93}
+[sched] 187 optimiser steps
+[train] step 10/187 ce 0.696 542s peak 4.59GB
+[train] step 20/187 ce 0.239 752s peak 4.59GB
+[train] step 30/187 ce 0.413 962s peak 4.59GB
+[train] step 40/187 ce 0.451 1181s peak 4.65GB
+[train] step 50/187 ce 0.411 1407s peak 4.65GB
+[train] step 60/187 ce 0.210 1613s peak 4.65GB
+[train] step 70/187 ce 0.299 1824s peak 4.65GB
+[train] step 80/187 ce 0.732 2040s peak 4.72GB
+[train] step 90/187 ce 0.146 2244s peak 4.72GB
+[train] step 100/187 ce 0.373 2462s peak 4.72GB
+[train] step 110/187 ce 0.340 2671s peak 4.72GB
+[train] step 120/187 ce 0.494 2895s peak 4.72GB
+[train] step 130/187 ce 0.549 3114s peak 4.72GB
+[train] step 140/187 ce 0.366 3533s peak 4.72GB
+[train] step 150/187 ce 0.207 4011s peak 4.72GB
+[train] step 160/187 ce 0.355 4235s peak 4.72GB
+[train] step 170/187 ce 0.394 4442s peak 4.72GB
+[train] step 180/187 ce 0.321 4646s peak 4.72GB
+[eval after] {'flow': 0.94, 'subflow': 0.9, 'is_product_return': 0.99}
+[merged] adapters/A500v3-merged
+[calibrated] adapters/A500v3-merged {'choice': 1.469684386112446, 'noul': 1.7680381784572086, 'score': 1.0}
+run_id 91d2f53a: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500 (adapters/A500v3-merged)']
+run_id 02320abf: 150 cases × 1 repeats, 0 errored rows, model ['decider-2b+A500 (adapters/A500v3-merged)']
+[v3 done]

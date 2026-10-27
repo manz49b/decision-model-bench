@@ -1,0 +1,9 @@
+[eval before] {'next_action': 0.3}
+[sched] 62 optimiser steps
+[train] step 10/62 ce 2.260 160s peak 4.65GB
+[train] step 20/62 ce 1.232 312s peak 4.87GB
+[train] step 30/62 ce 1.285 462s peak 4.87GB
+[train] step 40/62 ce 1.022 622s peak 4.87GB
+[train] step 50/62 ce 1.098 773s peak 4.87GB
+[train] step 60/62 ce 1.080 926s peak 4.87GB
+[eval after] {'next_action': 0.68}

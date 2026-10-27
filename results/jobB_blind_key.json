@@ -1,0 +1,52 @@
+{
+ "1": {
+  "chat": 337,
+  "A": "model",
+  "B": "gold"
+ },
+ "2": {
+  "chat": 960,
+  "A": "model",
+  "B": "gold"
+ },
+ "3": {
+  "chat": 1341,
+  "A": "model",
+  "B": "gold"
+ },
+ "4": {
+  "chat": 1711,
+  "A": "model",
+  "B": "gold"
+ },
+ "5": {
+  "chat": 2206,
+  "A": "gold",
+  "B": "model"
+ },
+ "6": {
+  "chat": 2599,
+  "A": "gold",
+  "B": "model"
+ },
+ "7": {
+  "chat": 3707,
+  "A": "model",
+  "B": "gold"
+ },
+ "8": {
+  "chat": 5468,
+  "A": "model",
+  "B": "gold"
+ },
+ "9": {
+  "chat": 6292,
+  "A": "model",
+  "B": "gold"
+ },
+ "10": {
+  "chat": 6673,
+  "A": "gold",
+  "B": "model"
+ }
+}

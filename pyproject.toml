@@ -1,0 +1,44 @@
+[project]
+name = "bench"
+version = "0.0.1"
+authors = [{ name = "Bev Manz" }]
+requires-python = "==3.12.*"
+dependencies = [
+    "httpx>=0.28",
+    "python-dotenv>=1.2",
+    "pandas>=2.2",
+    "scikit-learn>=1.6",
+    "datasets>=3.0",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = ["pytest", "ruff", "ipykernel", "matplotlib", "nbformat", "nbconvert"]
+databricks = ["databricks-connect~=18.0.0", "databricks-sdk>=0.67"]
+# Local decider-2b inference and the LoRA fine-tune (CUDA build of torch)
+gpu = [
+    "torch>=2.8",
+    "transformers>=5",
+    "peft>=0.17",
+    "bitsandbytes>=0.48",
+    "accelerate>=1.10",
+    "decider-ai[serve]",
+    "flash-linear-attention",
+    "ziglang>=0.17.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 120
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+decider-ai = { git = "https://github.com/Mapika/decider" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

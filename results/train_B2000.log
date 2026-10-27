@@ -1,0 +1,28 @@
+[eval before] {'next_action': 0.35}
+[sched] 250 optimiser steps
+[train] step 10/250 ce 2.116 145s peak 4.66GB
+[train] step 20/250 ce 1.418 283s peak 4.72GB
+[train] step 30/250 ce 1.301 418s peak 4.72GB
+[train] step 40/250 ce 0.908 552s peak 4.72GB
+[train] step 50/250 ce 0.999 688s peak 4.72GB
+[train] step 60/250 ce 0.749 824s peak 4.86GB
+[train] step 70/250 ce 1.048 956s peak 4.86GB
+[train] step 80/250 ce 0.932 1089s peak 4.86GB
+[train] step 90/250 ce 1.042 1228s peak 4.86GB
+[train] step 100/250 ce 0.656 1363s peak 4.86GB
+[train] step 110/250 ce 0.775 1497s peak 4.86GB
+[train] step 120/250 ce 1.092 1629s peak 4.86GB
+[train] step 130/250 ce 1.308 1759s peak 4.86GB
+[train] step 140/250 ce 1.192 1894s peak 4.86GB
+[train] step 150/250 ce 0.853 2029s peak 4.86GB
+[train] step 160/250 ce 0.831 2162s peak 4.86GB
+[train] step 170/250 ce 1.231 2295s peak 4.86GB
+[train] step 180/250 ce 1.029 2428s peak 4.86GB
+[train] step 190/250 ce 0.657 2563s peak 4.86GB
+[train] step 200/250 ce 0.678 2694s peak 4.86GB
+[train] step 210/250 ce 0.662 2829s peak 4.86GB
+[train] step 220/250 ce 1.013 2962s peak 4.86GB
+[train] step 230/250 ce 0.749 3099s peak 4.86GB
+[train] step 240/250 ce 0.948 3236s peak 4.86GB
+[train] step 250/250 ce 0.744 3367s peak 4.86GB
+[eval after] {'next_action': 0.81}

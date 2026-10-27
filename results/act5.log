@@ -1,0 +1,17 @@
+[stage] shared adapter (both jobs, 500 chats each)
+[data] 2000 train rows, 400 dev rows, mean 846 tokens
+[eval before] {'flow': 0.8, 'subflow': 0.73, 'is_product_return': 0.92, 'next_action': 0.33}
+[sched] 250 optimiser steps
+[eval after] {'flow': 0.92, 'subflow': 0.9, 'is_product_return': 0.99, 'next_action': 0.63}
+[merged] adapters/AB500-merged
+[calibrated] adapters/AB500-merged {'choice': 1.4720406378260014, 'noul': 0.001, 'score': 1.0}
+run_id c76ced2c: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+AB500 (adapters/AB500-merged)']
+run_id 2aef29df: 150 cases × 1 repeats, 0 errored rows, model ['decider-2b+AB500 (adapters/AB500-merged)']
+[calibrated] adapters/AB500-merged {'choice': 1.506415800129591, 'noul': 1.0, 'score': 1.0}
+run_id fd41b41a: 300 cases × 1 repeats, 0 errored rows, model ['decider-2b+AB500 (adapters/AB500-merged)']
+[stage] swap test (one base, both adapters attached)
+A test300 {'run_id': 'f3cf338f', 'p50_ms': np.float64(1499.9)}
+A dev150 {'run_id': '0bb2895b', 'p50_ms': np.float64(1471.3)}
+B test300 {'run_id': '5e872953', 'p50_ms': np.float64(375.6)}
+{'gpu': 'NVIDIA RTX PRO 500 Blackwell Generation Laptop GPU', 'A/test300': {'run_id': 'f3cf338f', 'p50_ms': np.float64(1499.9)}, 'A/dev150': {'run_id': '0bb2895b', 'p50_ms': np.float64(1471.3)}, 'B/test300': {'run_id': '5e872953', 'p50_ms': np.float64(375.6)}, 'switch_ms': {'median': 4.802, 'max': 7.451}, 'peak_gb': 4.61}
+[act5 done]
